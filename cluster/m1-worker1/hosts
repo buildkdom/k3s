@@ -1,0 +1,13 @@
+127.0.0.1	localhost
+127.0.1.1	k3s-VirtualBox
+
+10.0.2.200	master1.example.com	master1
+10.0.2.201	m1-worker1.example.com	m1-worker1
+
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters

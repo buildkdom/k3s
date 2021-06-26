@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  example:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-06-25T11:11:44.857482759+09:00"
+    description: A Helm chart for Kubernetes
+    digest: 9c7149df62b7e200a9b63de26a4fd7894159c49a221d38985ed497e865fe2662
+    name: example
+    type: application
+    urls:
+    - example-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-06-25T11:11:44.854840764+09:00"

@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: wp
+spec:
+  containers: 
+  - name: wordpress
+    image: wordpress
+    volumeMounts:
+    - mountPath: /wp-volume
+      name: vol-wp
+  volumes:
+  - name: vol-wp
+    persistentVolumeClaim:
+      claimName: pvc-wordpress
